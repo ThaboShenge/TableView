@@ -13,6 +13,7 @@
 		685134C72A1CA0A300FC80CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685134C52A1CA0A300FC80CB /* Main.storyboard */; };
 		685134C92A1CA0A400FC80CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 685134C82A1CA0A400FC80CB /* Assets.xcassets */; };
 		685134CC2A1CA0A400FC80CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 685134CA2A1CA0A400FC80CB /* LaunchScreen.storyboard */; };
+		685134D42A1CA65700FC80CB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685134D32A1CA65700FC80CB /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		685134C82A1CA0A400FC80CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		685134CB2A1CA0A400FC80CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		685134CD2A1CA0A400FC80CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685134D32A1CA65700FC80CB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				685134BF2A1CA0A300FC80CB /* AppDelegate.swift */,
 				685134C12A1CA0A300FC80CB /* SceneDelegate.swift */,
 				685134C32A1CA0A300FC80CB /* ViewController.swift */,
+				685134D32A1CA65700FC80CB /* TableViewCell.swift */,
 				685134C52A1CA0A300FC80CB /* Main.storyboard */,
 				685134C82A1CA0A400FC80CB /* Assets.xcassets */,
 				685134CA2A1CA0A400FC80CB /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				685134C42A1CA0A300FC80CB /* ViewController.swift in Sources */,
+				685134D42A1CA65700FC80CB /* TableViewCell.swift in Sources */,
 				685134C02A1CA0A300FC80CB /* AppDelegate.swift in Sources */,
 				685134C22A1CA0A300FC80CB /* SceneDelegate.swift in Sources */,
 			);
